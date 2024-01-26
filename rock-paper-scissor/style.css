@@ -1,0 +1,45 @@
+body{
+    color: white;
+    background-color: grey; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.game{
+    width:90%;
+    height:80%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+button{
+    font-size: 75px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    box-shadow:2px 2px 5px #ffff;
+}
+
+
+
+
